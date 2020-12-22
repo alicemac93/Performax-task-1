@@ -1,0 +1,40 @@
+
+.arrow{
+    position: relative;
+}
+
+.arrow p {
+    width: 90%;
+}
+
+.arrow:after {
+    border-left: 2px solid #f5a211;
+    border-top: 2px solid #f5a211;
+    width: 35px;
+    content: '';
+    height: 35px;
+    transform: rotate(135deg);
+    margin-right: 2%;
+    right: 10px;
+    top: 40%;
+    position: absolute;
+}
+
+
+#ad-img{
+    background-color: #f5a211;
+}
+
+.side-wrap{
+    position: sticky;
+}
+
+.article-side{
+    padding: 10px;
+}
+.img-wrap-side{
+    background: #f5a211;
+    height: 250px;
+    flex: 1;
+    border: 1px solid #f5a211;
+}
