@@ -27,6 +27,7 @@
 
 .side-wrap{
     position: sticky;
+    top: 50px;
 }
 
 .article-side{
